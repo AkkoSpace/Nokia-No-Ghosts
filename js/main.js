@@ -740,7 +740,7 @@
                     }), this.weappModal = new h.modal({
                         closeMethods: ["overlay", "button", "escape"],
                         closeLabel: "关闭"
-                    }), this.weappModal.setContent("<div style=\"width: 100%; text-align: center;\"><img style='width: 100%; max-width: 300px;' src=".concat("https://cdn.jsdelivr.net/gh/dcalsky/zzkia/api/images/weapp.jpg", '/ alt="QRcode"></div>'))
+                    }), this.weappModal.setContent("<div style=\"width: 100%; text-align: center;\"><img style='width: 100%; max-width: 300px;' src=".concat("https://cdn.jsdelivr.net/gh/LvFinch/ImgHost/NokiaImg/wedonate.png", '/ alt="QRcode"></div>'))
                 }
             }, {
                 key: "loading",
