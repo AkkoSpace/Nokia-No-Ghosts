@@ -1,0 +1,76 @@
+﻿<!--
+ * -> Author : Akko
+ * -> Date : 2020-05-06 20:47:12
+ * -> LastEditTime : 2020-05-06 23:27:24
+ * -> LastEditors : Akko
+ * -> Description : 微博爆款诺基亚短信图片生成器，生成老式手机短信图片。
+ * -> FilePath : \Nokia-No-Ghosts\index.html
+ * -> Copyright  © 2020 Akko All rights reserved.
+ -->
+<!DOCTYPE html>
+<html lang="zh_CN" dir="">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="Keyword" content="诺基亚, 短信图片, 生成器, 老式手机">
+    <meta name="Description" content="微博爆款诺基亚短信图片生成器，生成老式手机短信图片。">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>诺基亚短信生成器</title>
+    <link rel="stylesheet" href="./css/tingle.min.css" />
+    <link rel="shortcut icon" href="./img/sakura.png">
+    <link href="./css/main.css" rel="stylesheet">
+    <script src="./js/button.js"></script>
+</head>
+<body>
+    <div class="tool">
+        <div class="header">
+            <h1 class="title">Akko Design</h1>
+            <div class="github">
+                <a
+                  class="github-button"
+                  href="https://github.com/LvFinch/Nokia-No-Ghosts"
+                  target="_blank"
+                  data-color-scheme="no-preference: light; light: light; dark: light;"
+                  data-size="large"
+                  data-show-count="true"
+                  aria-label="Star LvFinch/Nokia-No-Ghosts on GitHub"
+                >
+                  Star
+                </a>
+              </div>
+            <h2 class="desc">诺基亚短信图片生成器</h2>
+        </div>
+        <div class="input">
+            <input id="text" class="text" placeholder="输入您想生成的短信文字" type="text" />
+            <div class="patina-switch">
+                <input type="checkbox" class="ios8-switch ios8-switch-lg" id="patina" />
+                <label class="tip" for="patina">绿色包浆</label>
+            </div>
+        </div>
+        <br>
+        <div class="generate-box">
+            <img src="./img/photo.png" alt="生成">
+            <br>
+            <button id="generate" class="generate">
+                生成
+            </button>
+            <br><br>
+            <button id="download">
+                <img src="./img/save.png" alt="保存" style="width: 50px; height: 50px;">
+                <br>保存
+            </button>
+            <button id="weapp" class="weapp">
+                <img src="./img/donate.png" alt="捐赠" style="width: 50px;">
+                <br>捐赠
+            </button>
+        </div>
+    </div>
+    <br>
+    <div id="result" class="image-box">
+        <img crossorigin="anonymous" class="image" id="nokiaImage" alt="Akko" src="#" />
+        <p id="image-tip" class="tip">Copyright © 2020 Akko All rights reserved.</p>
+    </div>
+    <script type="text/javascript" src="./js/tingle.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>
