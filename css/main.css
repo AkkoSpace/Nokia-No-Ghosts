@@ -1,0 +1,269 @@
+﻿p {
+    margin: 0
+}
+
+@font-face {
+    font-family: CustomFont;
+    src: url(../fonts/1.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal
+}
+
+body,
+canvas {
+    font-family: CustomFont
+}
+
+label {
+    font-family: Roboto, Arial, sans-serif
+}
+
+body {
+    margin: 0;
+    padding-top: 10px;
+    background: #f5efef
+}
+
+.generate-box {
+    text-align: center
+}
+
+.generate-box button {
+    background: transparent;
+    color: rgba(0, 0, 0, .55);
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: .7rem;
+    font-weight: 500;
+    transition: all .5s
+}
+
+.generate {
+    border: 1px solid #0288d1
+}
+
+.donate {
+    border: 1px solid #ff9800
+}
+
+.weapp {
+    border: 1px solid #009688
+}
+
+.generate:hover {
+    background: #0288d1;
+    color: #fff
+}
+
+.donate:hover {
+    background: #ff9800;
+    color: #fff
+}
+
+.weapp:hover {
+    background: #009688;
+    color: #fff
+}
+
+#download {
+    border: 1px solid #ef5350
+}
+
+#download:hover {
+    background: #ef5350;
+    color: #fff
+}
+
+.image-box {
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.image {
+    height: 500px
+}
+
+html {
+    box-sizing: border-box
+}
+
+.github {
+    margin: 10px 0;
+    text-align: center
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    border: none
+}
+
+* {
+    box-sizing: inherit
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 100px
+}
+
+.header {
+    margin-bottom: 15px
+}
+
+.title {
+    margin: 3px 0;
+    font-size: 1.7rem;
+    color: #666
+}
+
+.desc {
+    font-size: 1.1rem;
+    color: #9bc788
+}
+
+.tool {
+    text-align: center;
+    padding-bottom: 10px
+}
+
+.tool .text {
+    border: none;
+    width: 100%;
+    background: #fefefe;
+    border-radius: 40px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, .15);
+    outline: none;
+    font-size: 13px;
+    color: #5a6674;
+    padding: 12px 16px
+}
+
+.input {
+    position: relative;
+    width: 300px;
+    margin: 0 auto 10px
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        padding: 0;
+        width: 100%
+    }
+
+    .image {
+        width: 100%;
+        height: auto
+    }
+}
+
+.promotion {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 5px 10px
+}
+
+.promotion img {
+    width: 100%;
+    border-radius: 10px
+}
+
+footer {
+    width: 100%;
+    text-align: center
+}
+
+.tip {
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif;
+    color: rgba(0, 0, 0, .44);
+    margin: 3px 0
+}
+
+.patina-switch {
+    margin: 5px 0
+}
+
+input[type=checkbox].ios8-switch {
+    position: absolute;
+    margin: 8px 0 0 16px
+}
+
+input[type=checkbox].ios8-switch+label {
+    position: relative;
+    padding: 5px 0 0 50px;
+    line-height: 2em
+}
+
+input[type=checkbox].ios8-switch+label:before {
+    width: 40px
+}
+
+input[type=checkbox].ios8-switch+label:after,
+input[type=checkbox].ios8-switch+label:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    height: 24px;
+    border-radius: 16px;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    -webkit-transition: all .3s;
+    transition: all .3s
+}
+
+input[type=checkbox].ios8-switch+label:after {
+    width: 24px
+}
+
+input[type=checkbox].ios8-switch+label:hover:after {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3)
+}
+
+input[type=checkbox].ios8-switch:checked+label:after {
+    margin-left: 16px
+}
+
+input[type=checkbox].ios8-switch:checked+label:before {
+    background: #55d069
+}
+
+input[type=checkbox].ios8-switch-lg {
+    margin: 10px 0 0 20px
+}
+
+input[type=checkbox].ios8-switch-lg+label {
+    position: relative;
+    padding: 7px 0 0 60px;
+    line-height: 2.3em
+}
+
+input[type=checkbox].ios8-switch-lg+label:before {
+    width: 50px;
+    height: 30px;
+    border-radius: 20px
+}
+
+input[type=checkbox].ios8-switch-lg+label:after {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px
+}
+
+input[type=checkbox].ios8-switch-lg+label:hover:after {
+    box-shadow: 0 0 8px rgba(0, 0, 0, .3)
+}
+
+input[type=checkbox].ios8-switch-lg:checked+label:after {
+    margin-left: 20px
+}
